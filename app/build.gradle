@@ -83,35 +83,32 @@ dependencies {
     // UI Tests
     androidTestImplementation("androidx.compose.ui:ui-test-junit4:1.1.1")
 
-    implementation "androidx.compose.compiler:compiler:1.2.0-alpha05"
-    implementation "androidx.compose.material3:material3:1.0.0-alpha07"
-    implementation "androidx.compose.runtime:runtime:1.2.0-alpha05"
+    implementation "androidx.compose.compiler:compiler:1.2.0-alpha06"
+    implementation "androidx.compose.material3:material3:1.0.0-alpha08"
+    implementation "androidx.compose.runtime:runtime:1.2.0-alpha06"
     implementation 'androidx.ui:ui-framework:0.1.0-dev10'
-    implementation "androidx.compose.material:material-icons-extended:1.2.0-alpha05"
+    implementation "androidx.compose.material:material-icons-extended:1.2.0-alpha06"
 
     // image loading
     implementation 'com.github.bumptech.glide:glide:4.13.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.13.0'
 
     /*************** ROOM DATABASE ***************/
-
+    implementation("androidx.room:room-runtime:2.4.2")
+    annotationProcessor("androidx.room:room-compiler:2.4.2")
+    // To use Kotlin annotation processing tool (kapt)
+    kapt("androidx.room:room-compiler:2.4.2")
+    // To use Kotlin Symbolic Processing (KSP)
+//    ksp("androidx.room:room-compiler:2.4.2")
 
     /*************** NAVIGATION ***************/
-
-    // Java language implementation
-    implementation("androidx.navigation:navigation-fragment-ktx:2.4.1")
-    implementation("androidx.navigation:navigation-ui-ktx:2.4.1")
-
     // Kotlin
     implementation("androidx.navigation:navigation-fragment-ktx:2.4.1")
     implementation("androidx.navigation:navigation-ui-ktx:2.4.1")
-
     // Feature module Support
     implementation("androidx.navigation:navigation-dynamic-features-fragment:2.4.1")
-
     // Testing Navigation
     androidTestImplementation("androidx.navigation:navigation-testing:2.4.1")
-
     // Jetpack Compose Integration
     implementation("androidx.navigation:navigation-compose:2.4.1")
 
@@ -135,30 +132,30 @@ dependencies {
 
     /*********** LIFE CYCLE *************/
     // ViewModel
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0-alpha04")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0-alpha05")
     // ViewModel utilities for Compose
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.5.0-alpha04")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.5.0-alpha05")
     // LiveData
-    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.5.0-alpha04")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.5.0-alpha05")
     // Lifecycles only (without ViewModel or LiveData)
-    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.5.0-alpha04")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.5.0-alpha05")
 
     // Saved state module for ViewModel
-    implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0-alpha04")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0-alpha05")
 
     // Annotation processor
-    kapt("androidx.lifecycle:lifecycle-compiler:2.5.0-alpha04")
+    kapt("androidx.lifecycle:lifecycle-compiler:2.5.0-alpha05")
     // alternately - if using Java8, use the following instead of lifecycle-compiler
-    implementation("androidx.lifecycle:lifecycle-common-java8:2.5.0-alpha04")
+    implementation("androidx.lifecycle:lifecycle-common-java8:2.5.0-alpha05")
 
     // optional - helpers for implementing LifecycleOwner in a Service
-    implementation("androidx.lifecycle:lifecycle-service:2.5.0-alpha04")
+    implementation("androidx.lifecycle:lifecycle-service:2.5.0-alpha05")
 
     // optional - ProcessLifecycleOwner provides a lifecycle for the whole application process
-    implementation("androidx.lifecycle:lifecycle-process:2.5.0-alpha04")
+    implementation("androidx.lifecycle:lifecycle-process:2.5.0-alpha05")
 
     // optional - ReactiveStreams support for LiveData
-    implementation("androidx.lifecycle:lifecycle-reactivestreams-ktx:2.5.0-alpha04")
+    implementation("androidx.lifecycle:lifecycle-reactivestreams-ktx:2.5.0-alpha05")
 
     /************ VIEWPAGER 2 ***************/
     implementation("androidx.viewpager2:viewpager2:1.0.0")
@@ -168,5 +165,11 @@ dependencies {
     implementation("androidx.datastore:datastore-core:1.0.0")
 
     /************  PROTO DATASTORE  ***************/
+
+    /************* COROUTINES *********************/
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0")
+
+
 
 }
