@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Android World</string>
+    <string name="title_activity_toolbar_icon_setup">ToolbarIconSetupActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="text_edit">Edit</string>
+    <string name="username">User Name</string>
+    <string name="mobilenumber">Mobile Number</string>
+    <string name="email">Email Id</string>
+    <string name="text_kycstatus">KYC Status</string>
+    <string name="text_request_money">Request Money History</string>
+    <string name="text_transaction_history">Transaction History</string>
+    <string name="text_wallet_status">Wallet Status</string>
+    <string name="text_transaction_limit">Transaction Limit</string>
+    <string name="text_faq">FAQs</string>
+    <string name="text_share_with_friends">Share With Friends</string>
+    <string name="text_rate_us">Rate Us 5-Stars</string>
+    <string name="text_logout">Logout</string>
+    <string name="text_version">Version</string>
+    <string name="complete_kyc">Complete KYC</string>
+    <string name="status_pending">pending</string>
 </resources>

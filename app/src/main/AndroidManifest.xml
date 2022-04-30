@@ -10,8 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidWorld">
         <activity
+            android:name=".designs.AmitDesignActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".uiDesign.amits.ToolbarIconSetupActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
