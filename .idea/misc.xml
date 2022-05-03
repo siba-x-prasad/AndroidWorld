@@ -3,7 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/circular_drawable.xml" value="0.129" />
+        <entry key="app/src/main/res/drawable/drawable_rectangular_button.xml" value="0.1155" />
+        <entry key="app/src/main/res/drawable/ic_baseline_chevron_left_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1" />
+        <entry key="app/src/main/res/font-v26/fonts.xml" value="0.1484375" />
+        <entry key="app/src/main/res/font/fonts.xml" value="0.1484375" />
+        <entry key="app/src/main/res/layout/activity_datastore_preference.xml" value="0.13179347826086957" />
         <entry key="app/src/main/res/layout/activity_hilt.xml" value="0.13179347826086957" />
+        <entry key="app/src/main/res/layout/activity_toolbar_icon.xml" value="0.11510416666666666" />
+        <entry key="app/src/main/res/layout/activity_toolbar_icon_setup.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/app_bar_toolbar_icon_setup.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/content_toolbar_icon_setup.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.13179347826086957" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.13179347826086957" />
+        <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.13179347826086957" />
+        <entry key="app/src/main/res/layout/nav_header_toolbar_icon_setup.xml" value="0.13179347826086957" />
+        <entry key="app/src/main/res/menu/toolbar_icon_setup.xml" value="0.1" />
       </map>
     </option>
   </component>
