@@ -45,6 +45,7 @@ android {
     composeOptions {
         kotlinCompilerExtensionVersion '1.1.1'
     }
+    namespace 'com.swasi.androidworld'
 }
 
 dependencies {
