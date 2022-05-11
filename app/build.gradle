@@ -31,10 +31,13 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
-    buildFeatures {
-        // Enables Jetpack Compose for this module
-        compose true
+    buildFeatures{
+        dataBinding true
     }
+
+//    buildFeatures {
+//        compose true
+//    }
 
     kotlinOptions {
         jvmTarget = '1.8'
@@ -165,6 +168,8 @@ dependencies {
     implementation("androidx.datastore:datastore-core:1.0.0")
     implementation "androidx.datastore:datastore-preferences:1.0.0"
     /************  PROTO DATASTORE  ***************/
+// Starting from Protobuf 3.8.0, use the lite runtime library
+    implementation  "com.google.protobuf:protobuf-javalite:3.18.0"
 
     /************* COROUTINES *********************/
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0")

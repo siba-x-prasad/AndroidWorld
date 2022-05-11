@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Android World</string>
+    <string name="user_name">User Name</string>
+    <string name="data_store_preference">Data Store Preference</string>
 </resources>
